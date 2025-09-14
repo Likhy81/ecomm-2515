@@ -1,0 +1,11 @@
+name: Push On Branches
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  push-on-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: push on specific branch
+        run: echo "This triggers when push on specified Branch!"
