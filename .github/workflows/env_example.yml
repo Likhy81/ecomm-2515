@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: greet message
         run: echo "$greet, Welcome to Github Actions"
+   #job2
+  deploy:
+     runs-on: ubuntu-latest
+     steps:
+       - name: message
+         run: echo "$greet, Welcome to deployment job"
