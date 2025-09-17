@@ -16,3 +16,12 @@ jobs:
          run: echo "$greet, $welcome deployment job"
          env:
            welcome: "Welcome to"
+   #job3
+   message:
+     run-on: ubuntu-latest
+     steps:
+       - name: messages
+         run: |
+         GITHUB_JOB	
+         
+           
