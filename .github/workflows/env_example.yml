@@ -21,7 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: messages
-        run: |
-         ${{ GITHUB_JOB	}}	
+        run: echo "This is job number ${{GITHUB_JOB}}"	
          
            
