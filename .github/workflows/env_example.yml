@@ -21,6 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: messages
-        run: echo "This is job number $GITHUB_JOB"	
+        run: echo "This is job number $GITHUB_RUN_NUMBER"	
          
            
