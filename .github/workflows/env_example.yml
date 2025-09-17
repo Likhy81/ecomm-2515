@@ -24,6 +24,7 @@ jobs:
         run: |
          echo "This is job number $GITHUB_RUN_NUMBER"	
          echo "Sample example!!"
-         echo "I am ${{ vars.message }}
+         echo "I am ${{ vars.message }}"
+         echo "my Password is: ${{secrets.pass}}"
          
            
