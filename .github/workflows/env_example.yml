@@ -1,0 +1,8 @@
+name: Environment Variables Example
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet message
+        run: echo "Hello World!, Welcome to Github Actions"
