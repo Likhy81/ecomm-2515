@@ -17,11 +17,11 @@ jobs:
          env:
            welcome: "Welcome to"
    #job3
-   message:
-     run-on: ubuntu-latest
-     steps:
-       - name: messages
-         run: |
+  message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: messages
+        run: |
          GITHUB_JOB	
          
            
