@@ -22,6 +22,6 @@ jobs:
     steps:
       - name: messages
         run: |
-         GITHUB_JOB	
+         ${{ GITHUB_JOB	}}	
          
            
