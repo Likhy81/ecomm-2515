@@ -13,6 +13,6 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: message
-         run: echo "$greet, Welcome to deployment job"
+         run: echo "$greet, $welcome deployment job"
          env:
            welcome: "Welcome to"
