@@ -14,3 +14,5 @@ jobs:
      steps:
        - name: message
          run: echo "$greet, Welcome to deployment job"
+         env:
+           welcome: "Welcome to"
